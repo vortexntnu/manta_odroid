@@ -1,0 +1,3 @@
+[submodule "manta-auv"]
+	path = manta-auv
+	url = https://github.com/vortexntnu/manta-auv.git
