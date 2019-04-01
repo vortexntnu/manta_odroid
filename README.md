@@ -2,9 +2,13 @@
 
 This repository should contain all packages needed on the ODROID-XU4, Manta's main computer.
 
+## Prerequisites
+
+* [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+
 ## Installing
 
-1. Clone the repository to the source directory of your catkin workspace
+1. Clone the repository to the source directory of your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
    ```shell
    $ git clone git@github.com:vortexntnu/manta_odroid.git
