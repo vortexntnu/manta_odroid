@@ -7,6 +7,6 @@
 [submodule "stim300"]
 	path = stim300
 	url = https://github.com/vortexntnu/stim300.git
-[submodule "sensor-fusion"]
-	path = sensor-fusion
-	url = https://github.com/vortexntnu/sensor-fusion.git
+[submodule "sensor_fusion"]
+	path = sensor_fusion
+	url = https://github.com/vortexntnu/sensor_fusion.git
