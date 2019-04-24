@@ -1,6 +1,6 @@
 [submodule "manta-auv"]
 	path = manta-auv
 	url = https://github.com/vortexntnu/manta-auv.git
-[submodule "ros_em7180"]
-	path = ros_em7180
-	url = https://github.com/vortexntnu/ros_em7180.git
+[submodule "em7180"]
+	path = em7180
+	url = https://github.com/vortexntnu/em7180.git
