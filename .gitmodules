@@ -4,3 +4,9 @@
 [submodule "em7180"]
 	path = em7180
 	url = https://github.com/vortexntnu/em7180.git
+[submodule "stim300"]
+	path = stim300
+	url = https://github.com/vortexntnu/stim300.git
+[submodule "sensor-fusion"]
+	path = sensor-fusion
+	url = https://github.com/vortexntnu/sensor-fusion.git
