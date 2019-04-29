@@ -10,3 +10,6 @@
 [submodule "sensor_fusion"]
 	path = sensor_fusion
 	url = https://github.com/vortexntnu/sensor_fusion.git
+[submodule "thruster_control"]
+	path = thruster_control
+	url = https://github.com/vortexntnu/thruster_control.git
