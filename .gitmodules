@@ -10,3 +10,6 @@
 [submodule "thruster_control"]
 	path = thruster_control
 	url = https://github.com/vortexntnu/thruster_control.git
+[submodule "stim300_deprecated"]
+	path = stim300_deprecated
+	url = https://github.com/vortexntnu/stim300_deprecated.git
