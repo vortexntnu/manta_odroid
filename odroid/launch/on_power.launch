@@ -27,7 +27,7 @@
 	<node pkg="tf" type="static_transform_publisher" name="em7180_to_stim300"   args="-0.035 -0.017 -0.03 0 3.14159 0 em7180_link imu_0 100" />
 
   <include file="$(find underwater_odom)/launch/underwater_odom.launch" />
-  <include file="$(find depth_hold)/launch/depth_hold.launch" />
-  <include file="$(find control_input_merger)/launch/control_input_merger.launch" />
+  <!--include file="$(find depth_hold)/launch/depth_hold.launch" /-->
+  <!--include file="$(find control_input_merger)/launch/control_input_merger.launch" /-->
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
 </launch>
