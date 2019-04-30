@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <env name="ROSCONSOLE_FORMAT" value="[${severity}] [${time}] [${node}]: ${message}" />
+
+  <rosparam command="load" file="$(find vortex)/config/robots/manta.yaml"/>
+  <rosparam command="load" file="$(find thruster_interface)/config/thruster_terrapin.yaml" />
+  <rosparam command="load" file="$(find vortex)/config/environments/trondheim_freshwater.yaml" />
+
+  <!-- complementary filter -->
+	<include file = "$(find imu_complementary_filter)/launch/complementary_filter.launch" />
+
+	<!-- Kalman filter -->
+	<include file = "$(find robot_localization)/launch/ekf_imu.launch" />
+
+</launch>
