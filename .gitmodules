@@ -13,3 +13,6 @@
 [submodule "thruster_control"]
 	path = thruster_control
 	url = https://github.com/vortexntnu/thruster_control.git
+[submodule "dvl1000_ros"]
+	path = dvl1000_ros
+	url = https://github.com/vortexntnu/dvl1000_ros.git
