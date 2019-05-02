@@ -19,9 +19,13 @@ def sendTrigger():
 while not rospy.is_shutdown():
 	time.sleep(0.05)
 
-	# Read the adc value
-	adcValue = wpi.analogRead(3)
-	print adcValue
+	# Read all pins
+	#for pin in range(0, 30):
+	#	adcValue = wpi.analogRead(pin)
+	#	print (pin, adcValue)
+	#	wpi.delay(100)
+
+	adcValue = wpi.analogRead(29)
 
 	if adcValue == 0:
 		sendTrigger()
