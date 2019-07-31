@@ -13,3 +13,6 @@
 [submodule "dvl1000_ros"]
 	path = dvl1000_ros
 	url = https://github.com/vortexntnu/dvl1000_ros.git
+[submodule "stim300_deprecated"]
+	path = stim300_deprecated
+	url = https://github.com/vortexntnu/stim300_deprecated.git
