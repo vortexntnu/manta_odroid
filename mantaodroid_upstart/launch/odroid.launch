@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+        <include file="$(find state_machine)/launch/qualification_run.launch" />
+
+	<!--include file="$(find mission_trigger)/launch/mission_trigger.launch" /-->
+</launch>

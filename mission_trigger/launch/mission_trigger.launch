@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+        <env name="ROSCONSOLE_FORMAT" value="[${severity}] [${time}] [${node}]: ${message}" />
+        <node pkg="mission_trigger"   type="mission_trigger.py" name="mission_trigger"/>
+
+</launch>
